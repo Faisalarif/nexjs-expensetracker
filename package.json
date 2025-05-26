@@ -1,0 +1,22 @@
+{
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^2.49.8",
+		"bcryptjs": "^3.0.2",
+		"dotenv": "^16.5.0",
+		"next": "^15.1.8",
+		"postgres": "^3.4.7",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "22.15.21",
+		"@types/react": "19.1.5",
+		"typescript": "5.8.3"
+	}
+}
