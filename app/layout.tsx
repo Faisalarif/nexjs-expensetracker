@@ -1,5 +1,7 @@
 import '../app/style/globals.css';
 import React from 'react';
+import Link from 'next/link'
+
 
 export default function Rootlayout({
     children,
@@ -13,9 +15,9 @@ export default function Rootlayout({
                     <div className='sidebar'>
                        <h2>Sidebar</h2>
                         <nav>
-                            <a href="/">Home</a>
-                            <a href="/dashboard">Dashboard</a>
-                            <a href="/contact">Contact</a>
+                            <Link href="/">Home</Link>
+                            <Link href="/dashboard">Dashboard</Link>
+                            <Link href="/contact">Contact</Link>
                         </nav>
                     </div>
                     <main className='main-content'>

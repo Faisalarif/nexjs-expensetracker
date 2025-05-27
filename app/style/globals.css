@@ -39,7 +39,7 @@ body {
 
 .dashboard-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
@@ -47,4 +47,31 @@ body {
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 25px;
+}
+
+.tbl table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.tbl table tr th {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.tbl table tr th, .tbl table tr td {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.dashboard-cards {
+  margin-bottom: 2rem;
+}
+
+.expensechart{
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
 }
